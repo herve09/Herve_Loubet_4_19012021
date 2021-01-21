@@ -275,6 +275,8 @@ a:hover {
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
+    display: flex; /****/
+    padding-top: 20px;/****/
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -303,6 +305,7 @@ a:hover {
 
 .navbar-brand img {
     max-height: 200px;
+    height: 40px; /** html****/
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -361,6 +364,24 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+/**rajout code **/
+.col-sm-12 img,
+.col-xs-12 img {
+    width: 100%;
+}
+
+.portfolio-row img {
+    width: 100%;
+}
+
+.text-center {
+    font-size: 14px;
+}
+/**************************************/
+/***********************************/
+/********************************/
+
+
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -737,6 +758,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size: 14px;/****/
 }
 
 .portfolio-thumb {
@@ -824,6 +846,13 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
+/***************************************/
+/*********************************/
+/*******************************/
+
+
+
+
 
 @media (max-width: 1024px) {
     .bloc {
