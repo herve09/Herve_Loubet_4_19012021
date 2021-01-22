@@ -365,6 +365,14 @@ a:hover {
     z-index: 2;
 }
 /**rajout code **/
+.col-sm-4 {
+    margin-left: 10px;
+    font-weight: 600;
+}
+ .col-sm-4 a {
+     font-weight: 500;
+ }
+
 .col-sm-12 img,
 .col-xs-12 img {
     width: 100%;
@@ -721,8 +729,11 @@ p {
 }
 
 .social {
+    display: flex;
+    justify-content: space-around;
     max-width: 400px;
     margin: auto auto auto auto;
+    margin-bottom: 20px;
 }
 
 h2 {
