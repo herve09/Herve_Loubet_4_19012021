@@ -371,6 +371,13 @@ a:hover {
 /******************/
 .col-sm-4 {
     margin-left: 10px;
+    
+}
+.col-sm-4 a {
+   
+    font-weight: 550;
+}
+.col-sm-6 p {
     font-weight: 600;
 }
 /********************************/
@@ -400,7 +407,7 @@ a:hover {
 .col-sm-12,
 .col-xs-12 img {
     width: 100%; 
-}100
+}
 
 
 
@@ -489,6 +496,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    
 }
 
 .mg-lg {
