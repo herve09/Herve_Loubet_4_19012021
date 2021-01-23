@@ -364,9 +364,23 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+
+
 /*****************/
 /******************/
 /******************/
+.col-sm-4 {
+    margin-left: 10px;
+    font-weight: 600;
+}
+/********************************/
+
+/*****************************/
+/********************/
+/*****768***********/
+
+
+@media (min-width: 768px) {
 /*****************************************************************/
 /**rajout code **/
 .col-sm-4 {
@@ -376,27 +390,30 @@ a:hover {
  .col-sm-4 a {
      font-weight: 500;
      color: #3E3E3E;
- }
-
-.col-sm-12 img,
+ }**/
+/** logo hibou proportionnel
+.col-sm-12 .image-resize-mode {
+    width: 50%;
+}
+/****/
+/****/
+.col-sm-12,
 .col-xs-12 img {
-    width: 100%;
-}
+    width: 100%; 
+}100
 
-.portfolio-row img {
-    width: 100%;
-}
+
+
+/***********/
 
 .text-center {
     font-size: 14px;
 }
 /**************************************/
 /***********************************/
-/********************************/
 
 
 
-@media (min-width: 768px) {
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -863,11 +880,30 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
 }
-/***************************************/
+
+/**ajout code**/
+/**ajout code**/
+
+.row {
+    width: 100%;
+   
+}
+
+.med-width-whitespace {
+  /**  display: flex;**/
+}
+/*********
+.col-xs-12 img {
+    width: 50%;
+}
+******************************/
 /*********************************/
 /*******************************/
 
 
+/*****************************/
+/********************/
+/****1024************/
 
 
 
@@ -885,6 +921,10 @@ h4 {
     }
 }
 
+/*****************************/
+/********************/
+/*****768  992************/
+
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
         max-width: 80%
@@ -894,17 +934,31 @@ h4 {
     }
 }
 
+
+/*****************************/
+/********************/
+/*****768   1024***********/
+
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
+/*****************************/
+/********************/
+/*****1024  1366************/
+
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
+
+/*****************************/
+/********************/
+/*****991***/
 
 @media (max-width: 991px) {
     .container {
@@ -934,8 +988,23 @@ h4 {
         padding-right: constant(safe-area-inset-right);
     }
 }
+/*****************************/
+/********************/
+/*****767************/
 
 @media (max-width: 767px) {
+
+    /**code rajoute****/
+    .col-sm-12 {
+        width: 100%;
+    }
+    
+.img-responsive {
+    width: 100%;
+}
+    /*******fin rajout*****/
+
+
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1056,6 +1125,7 @@ h4 {
     .voffset-lg {
         margin-top: 30px;
         display: flex;
+    flex-flow: column;
     }
     form {
         padding: 5px;
@@ -1073,14 +1143,30 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
+   
+    
 }
+
+/*****************************/
+/********************/
+/*****400************/
 
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
+     /*********/
+    /***
+    .image-resyze-mode {
+        width: 50%;
+    }******/
 }
+
+/*****************************/
+/********************/
+/*****767************/
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
