@@ -382,6 +382,7 @@ a:hover {
 .col-sm-4 a {
    margin-bottom: 5px;
     font-weight: 550;
+    color: #fff;
 }
 .col-sm-6 p {
     font-weight: 600;
@@ -717,7 +718,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #fdfcfc!important;
 }
 
 .container {
