@@ -369,6 +369,10 @@ a:hover {
 /*****************/
 /******************/
 /******************/
+.title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
 
 .img-title img {
     width: 100%;
@@ -379,11 +383,9 @@ a:hover {
     font-size: 15px;
     font-weight: 900;
 }
-.col-sm-4 a {
-   margin-bottom: 5px;
-    font-weight: 550;
-    color: #fff;
-}
+
+
+
 .col-sm-6 p {
     font-weight: 600;
 }
@@ -404,8 +406,8 @@ a:hover {
 }
  .col-sm-4 a {
      font-weight: 500;
-     color: #3E3E3E;
- }**/
+    
+ }
 /** logo hibou proportionnel
 .col-sm-12 .image-resize-mode {
     width: 50%;
@@ -715,11 +717,16 @@ h6,
 p,
 label,
 .btn,
-a {
+{
     font-family: "helvetica";
     font-weight: 400;
-    color: #fdfcfc!important;
+    color: #3a3a3a!important;
 }
+a {
+    font-family: "helvetica";
+    font-weight: 400; 
+    color: #FFFFFF;
+} /** a est a la base avec les h***/
 
 .container {
     max-width: 1000px;
