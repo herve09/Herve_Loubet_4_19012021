@@ -372,7 +372,7 @@ a:hover {
 
 
 .title {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 700;
 }
 
@@ -402,6 +402,7 @@ a:hover {
 }
 .col-sm-6 {
     margin-top: 30px;
+    
 }
 
 .img-responsive {
@@ -462,7 +463,18 @@ li {
 /***********/
 
 .text-center {
-    font-size: 1rem; /**14px**/
+    font-size: 1.5rem; /**14px**/
+}
+
+.title {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+
+#bloc-7 .row {
+    display: flex;
+    flex-direction: column;
 }
 /**************************************/
 /***********************************/
@@ -790,7 +802,7 @@ a {
 }
 
 p {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
 }
 
 .tight-width-whitespace {
@@ -853,7 +865,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
-    font-size: 14px;/****/
+    font-size: 1.5rem;/****/
 }
 
 .portfolio-thumb {
