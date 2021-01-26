@@ -398,6 +398,11 @@ a:hover {
 
 
 @media (min-width: 768px) {
+
+    .footer-partner {
+        display: flex;
+        flex-wrap: nowrap;
+    }
 /*****************************************************************/
 /**rajout code **/
 .col-sm-4 {
@@ -823,7 +828,8 @@ h4 {
 
 .portfolio-row {
     margin-bottom: 44px;
-    margin-top: 50px;
+    margin-top: 0; /** 50px***/
+    
 }
 
 .avatar {
@@ -913,7 +919,11 @@ h4 {
 }
 
 .med-width-whitespace {
-  /**  display: flex;**/
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    top: 25px;
+    position: relative;
 }
 /*********
 .col-xs-12 img {
