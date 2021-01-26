@@ -195,7 +195,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .7);
 }
 
 .d-bloc .panel button:hover,
@@ -418,6 +418,10 @@ li {
 .partner {
     padding-top: 20px;
 }
+
+.blog_lg {
+    z-index: 2;
+}
 /*****************************/
 
 /*****************************/
@@ -609,7 +613,7 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: rgba(0, 0, 0, .3);
     box-shadow: none;
 }
 
@@ -768,6 +772,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    
 }
 
 .hero-bloc-text-sub {
@@ -785,7 +790,7 @@ a {
 }
 
 p {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
 }
 
 .tight-width-whitespace {
@@ -889,7 +894,7 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
-    font-weight: 600;/*****/
+    font-weight: 700;/*****/
 }
 
 .btn-atomic-tangerine {
@@ -925,6 +930,7 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
+    z-index: 1; /***ajouter bc contact***/
     
 }
 
