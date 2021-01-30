@@ -449,12 +449,12 @@ li {
 .med-width-whitespace {
     flex-direction: column;
 }
-
+/****
 .text-center {
-    font-size: 2rem; /**14px**/
+    font-size: 2rem; 14px
 }
 
-/*****************************/
+*************************/
 
 
 /*****************************//********************//********************/
@@ -473,12 +473,19 @@ li {
         padding-right: 15px;
     }
     
-
+/***
     .title {
-        font-size: 2rem;
+        font-size: 1.3rem;
         font-weight: 700;
     }
 
+    *****/
+    .portfolio-row {
+       display: flex;
+       flex-direction: column;
+    }
+
+        /**image flex clonne rajout **/    
     .img-responsive {
         width: 100%;
     }
@@ -1052,12 +1059,12 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 1.3rem;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 13px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
