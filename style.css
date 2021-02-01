@@ -1033,7 +1033,7 @@ a {
 }
 
 p {
-    font-size: 1.3rem;
+    font-size: 12px; /**1.3rem**/
     font-weight: 600;
 }
 
@@ -1052,7 +1052,7 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 1.1rem; /**16px**/
+    font-size: 12px; /**   1.1 rem 16px**/
     font-weight: 800; /**700**/
 }
 
