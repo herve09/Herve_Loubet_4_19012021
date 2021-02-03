@@ -506,7 +506,9 @@ li {
         margin-bottom: 24px;
         padding-left: 15px; 
     }
-
+    nav:hover .collapse {
+        display: block;
+    }
     /*******fin rajout*****/
 
 
@@ -677,6 +679,10 @@ li {
     }
 /************************/
 /**rajout code **/
+
+.bloc {
+    top: 10px;
+}
 .col-sm-4 {
     margin-left: 10px;
     font-weight: 600;
@@ -701,7 +707,6 @@ li {
 }
 
 .col-sm-6 {
-    width: 25%;
     margin-top: 0;
     padding-right: 10px;
     padding-left: 10px;
@@ -735,12 +740,14 @@ p {
 
 #bloc-7 .row {
     display: flex;
-    flex-direction: column;
+  
 }
 
 #bloc-8 {
     padding-top: 35px;
 }
+
+
 /**************************************/
 /***********************************/
 
@@ -1100,7 +1107,7 @@ p {
 }
 
 h2 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     line-height: 1.4em;
 }
 
