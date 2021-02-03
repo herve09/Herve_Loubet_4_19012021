@@ -97,7 +97,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.jpg");
+    background: url("img/texture-paper.png", 0.5);
     background-size: 280px 280px;
 }
 
@@ -710,6 +710,7 @@ li {
     margin-top: 0;
     padding-right: 10px;
     padding-left: 10px;
+    width: 25%;
 }
 
 .row {
@@ -1109,6 +1110,7 @@ p {
 h2 {
     font-size: 1.4rem;
     line-height: 1.4em;
+    font-weight: 600;
 }
 
 h3 {
@@ -1185,7 +1187,7 @@ h4 {
 .tc-white {
     color: #000000!important;
   font-weight: 600;
-   
+   border-radius: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
