@@ -34,6 +34,10 @@ a:hover {
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
+    /**padding-top: 0;**/
+    padding-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -439,7 +443,7 @@ li {
 
 .white {
     color: #000000!important;
-    font-size: 1.1rem;/****/
+   /** font-size: 1.1rem;**/
     font-weight: 600;
 }
 
@@ -474,26 +478,33 @@ li {
         padding-right: 0;
       
     }
+    /***
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
     
-/***
+
     .title {
         font-size: 1.3rem;
         font-weight: 700;
     }
 
-    *****/
+    **
     .portfolio-row {
        display: flex;
        flex-direction: column;
     }
-
+***/
         /**image flex clonne rajout **/    
     .img-responsive {
         width: 100%;
+    }
+
+
+    .portfolio-thumb {
+        margin-bottom: 24px;
+        padding-left: 15px; 
     }
 
     /*******fin rajout*****/
@@ -675,6 +686,8 @@ li {
      font-weight: 500;
     
  }
+
+
 /** logo hibou proportionnel**/
 .col-sm-12 .image-resize-mode {
     width: 100px;
@@ -687,25 +700,46 @@ li {
     width: 100%; 
 }
 
+.col-sm-6 {
+    width: 25%;
+    margin-top: 0;
+    padding-right: 10px;
+    padding-left: 10px;
+}
 
+.row {
+    margin-top: -30px;
+}
 
+p {
+    font-size: 14px;
+}
 /***********/
 
 .text-center {
-    font-size: 1.5rem; /**14px**/
+/**    font-size: 1.5rem; 14px
     padding-left: 20px;
-    
+    **/
 }
 
 .title {
     font-size: 1.6rem;
     font-weight: 700;
+    padding-top: 40px;
 }
 
+#bloc-4-portfolio {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 #bloc-7 .row {
     display: flex;
     flex-direction: column;
+}
+
+#bloc-8 {
+    padding-top: 35px;
 }
 /**************************************/
 /***********************************/
@@ -1010,7 +1044,7 @@ a {
 } /** a est a la base avec les h***/
 
 .container {
-    max-width: 1000px;
+    max-width: 100%;
 }
 
 .hero-bloc-text {
@@ -1036,12 +1070,13 @@ p {
     font-size: 14px; /***1.3rem**/
     font-weight: 600;
 }
-
+ /**
 .tight-width-whitespace {
-  /**  max-width: 600px;**//**texte nous souhahaitons---***/
+    display: flex;
+   max-width: 600px;**//**texte nous souhahaitons---
     margin: auto auto auto auto;
 }
-
+***/
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
@@ -1102,8 +1137,8 @@ h4 {
 }**/
 
 .portfolio-thumb {
-    margin-bottom: 24px;
-    padding-left: 25px; /**ajout espace entre images/
+    margin-bottom: 25px;
+    padding-left: 0; /**ajout espace entre images/
 
 }
 
@@ -1221,9 +1256,14 @@ span.et-icon-presentation.sm-shadow.icon-dark-slate-blue.icons.icon-lg
     position: relative;
 }
 /*********
-.col-xs-12 img {
-    width: 50%;
+.col-sm-6 {
+    display: flex;
+margin-right: 5px;
+
 }
+
+
+
 ******************************/
 /*********************************/
 /*******************************/
@@ -1237,12 +1277,12 @@ span.et-icon-presentation.sm-shadow.icon-dark-slate-blue.icons.icon-lg
 
 
 @media (max-width: 1024px) {
-  
+  /**
     .bloc {
         padding-left: 20px;
         padding-right: 20px;
     }
-
+**/
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
