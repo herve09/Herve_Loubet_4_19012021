@@ -306,7 +306,7 @@ a:hover {
 
 .navbar-brand {
     height: auto;
-    padding: 3px 15px;
+    padding: 3px 5px;
     font-size: 25px;
     font-weight: normal;
     font-weight: 600;
@@ -707,7 +707,7 @@ li {
     width: 100%; 
 }
 
-.col-sm-6 {
+#bloc-4-portfolio .col-sm-6 {
     margin-top: 0;
     padding-right: 10px;
     padding-left: 10px;
@@ -745,7 +745,7 @@ p {
   
 }
 
-#bloc-7 .col-sm-6{
+#bloc-7 .bloc-lg .row .col-sm-6 {
     width: 50%;
 }
 
