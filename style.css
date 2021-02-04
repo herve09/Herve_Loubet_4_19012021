@@ -506,6 +506,7 @@ li {
         margin-bottom: 24px;
         padding-left: 15px; 
     }
+
     nav:hover .collapse {
         display: block;
     }
@@ -742,6 +743,10 @@ p {
 #bloc-7 .row {
     display: flex;
   
+}
+
+#bloc-7 .col-sm-6{
+    width: 50%;
 }
 
 #bloc-8 {
