@@ -687,6 +687,10 @@ li {
 
     }
 
+    .contact-center {
+        text-align: center;
+    }
+
     .col-sm-12 .image-resize-mode {
         width: 100px;
         height: auto;
@@ -731,6 +735,7 @@ li {
 
     #bloc-7 .bloc-lg .row .col-sm-6 {
         width: 50%;
+        padding-right: 20px;
     }
 
     #bloc-8 {
