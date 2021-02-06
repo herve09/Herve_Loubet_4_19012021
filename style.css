@@ -750,6 +750,9 @@ margin-right: 0px;
     width: 30%;
 }
 
+#bloc-2-services .col-sm-4 {
+    width: 30%;
+}
 
 .container.bloc-md {
     width: 100%;
