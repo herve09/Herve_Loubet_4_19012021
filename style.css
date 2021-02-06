@@ -6,7 +6,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
 a,
 button {
     transition: all .3s ease-in-out;
@@ -451,8 +450,9 @@ li {
     flex-direction: column;
 }
 
-
-
+.container.bloc-md {
+    width: 100%;
+}
 /*****************************//********************/
 
 
@@ -492,6 +492,11 @@ li {
 
     }
 **/
+.row.row-no-gutters.social {
+    margin: auto;
+}
+
+
     .tc-white {
         font-size: 14px;
         font-weight: 600;
@@ -528,6 +533,9 @@ li {
     margin-left: 0px;
     margin-right: 0;
 }
+
+
+
 /***********************************************/
 #bloc-5-cta .container .row {
     margin-left: 0px;
@@ -717,15 +725,49 @@ margin-right: 0px;
 
 @media (min-width: 768px) {
 
+    .container {
+        width: 100%;
+    }
+    
     .footer-partner {
         display: flex;
         flex-wrap: nowrap;
     }
+    .row .tight-width-whitespace.portfolio-row {
+        display: flex;
+    }
+    
+    .row.voffset-lg.med-width-whitespace {
+        display: flex;
+        flex-direction: row;
+    }
 
-    /**rajout code **/
+    h2.mg-md.text-center.tc-white {
+        font-size: 18px;
+    }
+   
+#col-sm-pub {
+    width: 30%;
+}
+
+
+.container.bloc-md {
+    width: 100%;
+}
+
+ /**    rajout code **/
 
     .bloc {
         top: 10px;
+    }
+
+    h3.mg-md.text-center {
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .col-sm-12.text-center.img-title p {
+        font-size: 20px;
     }
 
     .col-sm-4 {
@@ -755,8 +797,8 @@ margin-right: 0px;
 
     #bloc-4-portfolio .col-sm-6 {
         margin-top: 0;
-        padding-right: 10px;
-        padding-left: 10px;
+        padding-right: 0px;
+        padding-left: 25px;
         width: 25%;
     }
 
@@ -1305,6 +1347,10 @@ span.et-icon-presentation.sm-shadow.icon-dark-slate-blue.icons.icon-lg {
     }
 }
 
+.row.row-no-gutters.social {
+    margin: auto;
+}
+
 /*****************************//*****************************/
 
 
@@ -1316,6 +1362,10 @@ span.et-icon-presentation.sm-shadow.icon-dark-slate-blue.icons.icon-lg {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+
+    #bloc-4-portfolio .col-sm-6 {
+       
+        width: 50%;
 }
 
 
@@ -1372,4 +1422,3 @@ span.et-icon-presentation.sm-shadow.icon-dark-slate-blue.icons.icon-lg {
    /**     padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);**/
     }
-}
