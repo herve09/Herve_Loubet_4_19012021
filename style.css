@@ -535,7 +535,9 @@ li {
 }
 
 
-
+.col-sm-6 .contact-center {
+    text-align: center;
+}
 /***********************************************/
 #bloc-5-cta .container .row {
     margin-left: 0px;
