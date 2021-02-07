@@ -742,6 +742,7 @@ margin-right: 0px;
     .row.voffset-lg.med-width-whitespace {
         display: flex;
         flex-direction: row;
+        margin-left: 15px;
     }
 
     h2.mg-md.text-center.tc-white {
