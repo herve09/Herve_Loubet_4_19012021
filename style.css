@@ -802,6 +802,7 @@ li {
 
     .row {
         margin-top: -30px;
+        padding-left: 25px;
     }
 
     p {
@@ -1255,7 +1256,6 @@ h4 {
 .tc-white {
     color: #000000 !important;
     font-weight: 600;
-    border-radius: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
